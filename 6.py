@@ -1,0 +1,10 @@
+import datetime
+today = datetime.datetime.now()
+print(today)
+print(today.year)
+print(today.month)
+print(today.strftime('%W'))
+print(today.strftime('%u'))
+print(today.strftime('%j'))
+print(today.strftime('%d'))
+print(today.strftime('%w'))
